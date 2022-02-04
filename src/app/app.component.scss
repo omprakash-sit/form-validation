@@ -1,0 +1,23 @@
+.mrb-10{
+    margin-bottom: 10px;
+}
+.form-wrapper{
+    width: 60%;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px;
+    label{
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    input{
+        min-width: 120px;
+        &.ng-invalid, &.ng-invalid:focus{
+            border-color: red !important;
+            outline: red;
+        }
+    }
+}
